@@ -1,0 +1,94 @@
+[
+  {
+    "@id": "http://desm.org/concepts/mappingClasses",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2022-10-19"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@language": "en-us",
+        "@value": "Test classes"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en-us",
+        "@value": "This concept scheme identifies the abstract mapping classes used by phil."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en-us",
+        "@value": "Phil's Schema of Abstract Mapping Classes"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://desm.org/concepts/document"
+      },
+      {
+        "@id": "http://desm.org/concepts/person"
+      },
+      {
+        "@id": "http://desm.org/concepts/organization"
+      }
+    ]
+  },
+  {
+    "@id": "http://desm.org/concepts/concepts/document",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desm.org/concepts/mappingClasses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Document"
+      }
+    ]
+  },
+  {
+    "@id": "http://desm.org/concepts/concepts/person",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desm.org/concepts/mappingClasses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Person"
+      }
+    ]
+  },
+  {
+    "@id": "http://desm.org/concepts/concepts/organization",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desm.org/concepts/mappingClasses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Organization"
+      }
+    ]
+  }
+]

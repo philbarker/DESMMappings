@@ -1,0 +1,52 @@
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix desm: <https://desmsolutions.org/ns/> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://desmsolutions.org/concepts/aggregated> a skos:Concept ;
+    skos:inScheme <http://desmsolutions.org/concepts/desmMappingPredicates> ;
+    skos:prefLabel "Aggregated"@en-us ;
+    desm:weight 3 .
+
+<http://desmsolutions.org/concepts/concept> a skos:Concept ;
+    skos:inScheme <http://desmsolutions.org/concepts/desmMappingPredicates> ;
+    skos:prefLabel "Concept"@en-us ;
+    desm:weight 2 .
+
+<http://desmsolutions.org/concepts/disaggregated> a skos:Concept ;
+    skos:inScheme <http://desmsolutions.org/concepts/desmMappingPredicates> ;
+    skos:prefLabel "Disaggregated"@en-us ;
+    desm:weight 3 .
+
+<http://desmsolutions.org/concepts/identical> a skos:Concept ;
+    skos:inScheme <http://desmsolutions.org/concepts/desmMappingPredicates> ;
+    skos:prefLabel "Identical"@en-us ;
+    desm:weight 5 .
+
+<http://desmsolutions.org/concepts/reworded> a skos:Concept ;
+    skos:inScheme <http://desmsolutions.org/concepts/desmMappingPredicates> ;
+    skos:prefLabel "Reworded"@en-us ;
+    desm:weight 5 .
+
+<http://desmsolutions.org/concepts/similar> a skos:Concept ;
+    skos:inScheme <http://desmsolutions.org/concepts/desmMappingPredicates> ;
+    skos:prefLabel "Similar"@en-us ;
+    desm:weight 4 .
+
+<http://desmsolutions.org/concepts/inverse> a skos:Concept ;
+    skos:inScheme <http://desmsolutions.org/concepts/desmMappingPredicates> ;
+    skos:prefLabel "Inverse"@en-us ;
+    desm:weight 4 .
+
+<http://desmsolutions.org/concepts/desmMappingPredicates> a skos:ConceptScheme ;
+    dcterms:created "2020-01-07"^^xsd:date ;
+    dcterms:creator <http://people.pjjk.net/phil> ;
+    dcterms:description "This concept scheme identifies the mapping predicates used by phil."@en-us ;
+    dcterms:title "Phil's Schema Map Tuning Predicates"@en-us ;
+    skos:hasTopConcept <http://desmsolutions.org/concepts/aggregated>,
+        <http://desmsolutions.org/concepts/concept>,
+        <http://desmsolutions.org/concepts/disaggregated>,
+        <http://desmsolutions.org/concepts/identical>,
+        <http://desmsolutions.org/concepts/inverse>,
+        <http://desmsolutions.org/concepts/reworded>,
+        <http://desmsolutions.org/concepts/similar> .

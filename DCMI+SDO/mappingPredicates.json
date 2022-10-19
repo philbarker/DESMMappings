@@ -1,0 +1,208 @@
+[
+  {
+    "@id": "http://desmsolutions.org/concepts/reworded",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desmsolutions.org/concepts/desmMappingPredicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Reworded"
+      }
+    ],
+    "https://desmsolutions.org/ns/weight": [
+      {
+        "@value": 5
+      }
+    ]
+  },
+  {
+    "@id": "http://desmsolutions.org/concepts/concept",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desmsolutions.org/concepts/desmMappingPredicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Concept"
+      }
+    ],
+    "https://desmsolutions.org/ns/weight": [
+      {
+        "@value": 2
+      }
+    ]
+  },
+  {
+    "@id": "http://desmsolutions.org/concepts/desmMappingPredicates",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#ConceptScheme"
+    ],
+    "http://purl.org/dc/terms/created": [
+      {
+        "@type": "http://www.w3.org/2001/XMLSchema#date",
+        "@value": "2020-01-07"
+      }
+    ],
+    "http://purl.org/dc/terms/creator": [
+      {
+        "@id": "http://people.pjjk.net/phil"
+      }
+    ],
+    "http://purl.org/dc/terms/description": [
+      {
+        "@language": "en-us",
+        "@value": "This concept scheme identifies the mapping predicates used by phil."
+      }
+    ],
+    "http://purl.org/dc/terms/title": [
+      {
+        "@language": "en-us",
+        "@value": "Phil's Schema Map Tuning Predicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
+      {
+        "@id": "http://desmsolutions.org/concepts/aggregated"
+      },
+      {
+        "@id": "http://desmsolutions.org/concepts/concept"
+      },
+      {
+        "@id": "http://desmsolutions.org/concepts/disaggregated"
+      },
+      {
+        "@id": "http://desmsolutions.org/concepts/identical"
+      },
+      {
+        "@id": "http://desmsolutions.org/concepts/inverse"
+      },
+      {
+        "@id": "http://desmsolutions.org/concepts/reworded"
+      },
+      {
+        "@id": "http://desmsolutions.org/concepts/similar"
+      }
+    ]
+  },
+  {
+    "@id": "http://desmsolutions.org/concepts/inverse",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desmsolutions.org/concepts/desmMappingPredicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Inverse"
+      }
+    ],
+    "https://desmsolutions.org/ns/weight": [
+      {
+        "@value": 4
+      }
+    ]
+  },
+  {
+    "@id": "http://desmsolutions.org/concepts/similar",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desmsolutions.org/concepts/desmMappingPredicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Similar"
+      }
+    ],
+    "https://desmsolutions.org/ns/weight": [
+      {
+        "@value": 4
+      }
+    ]
+  },
+  {
+    "@id": "http://desmsolutions.org/concepts/disaggregated",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desmsolutions.org/concepts/desmMappingPredicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Disaggregated"
+      }
+    ],
+    "https://desmsolutions.org/ns/weight": [
+      {
+        "@value": 3
+      }
+    ]
+  },
+  {
+    "@id": "http://desmsolutions.org/concepts/identical",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desmsolutions.org/concepts/desmMappingPredicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Identical"
+      }
+    ],
+    "https://desmsolutions.org/ns/weight": [
+      {
+        "@value": 5
+      }
+    ]
+  },
+  {
+    "@id": "http://desmsolutions.org/concepts/aggregated",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desmsolutions.org/concepts/desmMappingPredicates"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Aggregated"
+      }
+    ],
+    "https://desmsolutions.org/ns/weight": [
+      {
+        "@value": 3
+      }
+    ]
+  }
+]
