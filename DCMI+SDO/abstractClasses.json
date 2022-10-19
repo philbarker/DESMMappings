@@ -1,5 +1,22 @@
 [
   {
+    "@id": "http://desm.org/concepts/document",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desm.org/concepts/mappingClasses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Document"
+      }
+    ]
+  },
+  {
     "@id": "http://desm.org/concepts/mappingClasses",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#ConceptScheme"
@@ -25,7 +42,7 @@
     "http://purl.org/dc/terms/title": [
       {
         "@language": "en-us",
-        "@value": "Phil's Schema of Abstract Mapping Classes"
+        "@value": "Phils Schema of Abstract Mapping Classes"
       }
     ],
     "http://www.w3.org/2004/02/skos/core#hasTopConcept": [
@@ -41,24 +58,7 @@
     ]
   },
   {
-    "@id": "http://desm.org/concepts/concepts/document",
-    "@type": [
-      "http://www.w3.org/2004/02/skos/core#Concept"
-    ],
-    "http://www.w3.org/2004/02/skos/core#inScheme": [
-      {
-        "@id": "http://desm.org/concepts/mappingClasses"
-      }
-    ],
-    "http://www.w3.org/2004/02/skos/core#prefLabel": [
-      {
-        "@language": "en-us",
-        "@value": "Document"
-      }
-    ]
-  },
-  {
-    "@id": "http://desm.org/concepts/concepts/person",
+    "@id": "http://desm.org/concepts/person",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -75,7 +75,7 @@
     ]
   },
   {
-    "@id": "http://desm.org/concepts/concepts/organization",
+    "@id": "http://desm.org/concepts/organization",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
