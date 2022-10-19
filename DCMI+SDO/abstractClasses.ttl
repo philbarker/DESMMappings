@@ -2,15 +2,15 @@
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://desm.org/concepts/concepts/document> a skos:Concept ;
+<http://desm.org/concepts/document> a skos:Concept ;
     skos:inScheme <http://desm.org/concepts/mappingClasses> ;
     skos:prefLabel "Document"@en-us .
 
-<http://desm.org/concepts/concepts/person> a skos:Concept ;
+<http://desm.org/concepts/person> a skos:Concept ;
     skos:inScheme <http://desm.org/concepts/mappingClasses> ;
     skos:prefLabel "Person"@en-us .
 
-<http://desm.org/concepts/concepts/organization> a skos:Concept ;
+<http://desm.org/concepts/organization> a skos:Concept ;
     skos:inScheme <http://desm.org/concepts/mappingClasses> ;
     skos:prefLabel "Organization"@en-us .
 
@@ -18,7 +18,7 @@
     dcterms:created "2022-10-19"^^xsd:date ;
     dcterms:creator "Test classes"@en-us ;
     dcterms:description "This concept scheme identifies the abstract mapping classes used by phil."@en-us ;
-    dcterms:title "Phil's Schema of Abstract Mapping Classes"@en-us ;
+    dcterms:title "Phils Schema of Abstract Mapping Classes"@en-us ;
     skos:hasTopConcept <http://desm.org/concepts/document>,
         <http://desm.org/concepts/person>,
         <http://desm.org/concepts/organization> .
