@@ -14,11 +14,16 @@
     skos:inScheme <http://desm.org/concepts/mappingClasses> ;
     skos:prefLabel "Organization"@en-us .
 
+<http://desm.org/concepts/location> a skos:Concept ;
+    skos:inScheme <http://desm.org/concepts/mappingClasses> ;
+    skos:prefLabel "Location"@en-us .
+
 <http://desm.org/concepts/mappingClasses> a skos:ConceptScheme ;
     dcterms:created "2022-10-19"^^xsd:date ;
     dcterms:creator "Test classes"@en-us ;
     dcterms:description "This concept scheme identifies the abstract mapping classes used by phil."@en-us ;
     dcterms:title "Phils Schema of Abstract Mapping Classes"@en-us ;
-    skos:hasTopConcept <http://desm.org/concepts/document>,
-        <http://desm.org/concepts/person>,
-        <http://desm.org/concepts/organization> .
+    skos:hasTopConcept <http://desm.org/concepts/document> ,
+        <http://desm.org/concepts/person> ,
+        <http://desm.org/concepts/organization> ,
+        <http://desm.org/concepts/location> .
