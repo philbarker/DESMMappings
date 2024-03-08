@@ -1,6 +1,6 @@
 [
   {
-    "@id": "http://desm.org/concepts/document",
+    "@id": "http://desm.org/concepts/organization",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -12,7 +12,24 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en-us",
-        "@value": "Document"
+        "@value": "Organization"
+      }
+    ]
+  },
+  {
+    "@id": "http://desm.org/concepts/person",
+    "@type": [
+      "http://www.w3.org/2004/02/skos/core#Concept"
+    ],
+    "http://www.w3.org/2004/02/skos/core#inScheme": [
+      {
+        "@id": "http://desm.org/concepts/mappingClasses"
+      }
+    ],
+    "http://www.w3.org/2004/02/skos/core#prefLabel": [
+      {
+        "@language": "en-us",
+        "@value": "Person"
       }
     ]
   },
@@ -54,11 +71,14 @@
       },
       {
         "@id": "http://desm.org/concepts/organization"
+      },
+      {
+        "@id": "http://desm.org/concepts/location"
       }
     ]
   },
   {
-    "@id": "http://desm.org/concepts/person",
+    "@id": "http://desm.org/concepts/location",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -70,12 +90,12 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en-us",
-        "@value": "Person"
+        "@value": "Location"
       }
     ]
   },
   {
-    "@id": "http://desm.org/concepts/organization",
+    "@id": "http://desm.org/concepts/document",
     "@type": [
       "http://www.w3.org/2004/02/skos/core#Concept"
     ],
@@ -87,7 +107,7 @@
     "http://www.w3.org/2004/02/skos/core#prefLabel": [
       {
         "@language": "en-us",
-        "@value": "Organization"
+        "@value": "Document"
       }
     ]
   }
