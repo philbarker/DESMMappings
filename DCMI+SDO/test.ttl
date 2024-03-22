@@ -1,0 +1,42 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix test: <http://example.org/test/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix sdo: <https://schema.org/> .
+
+test:Human a rdfs:Class ;
+    rdfs:label "Human" ;
+    rdfs:comment "A Human, etc." .
+
+test:SomethingElse a rdfs:Class ;
+    rdfs:label "Something Else" ;
+    rdfs:comment "Look at that, over there..." .
+
+
+test:control a rdfs:Property ;
+    rdfs:domain test:Human ;
+    rdfs:comment "All information about domain and class are present."@en ;
+    rdfs:label "Control"@en .
+
+test:noClass a rdfs:Property ;
+    rdfs:domain test:Corporation ;
+    rdfs:comment "The class in the domain is not declared in this file."@en ;
+    rdfs:label "No Class"@en .
+
+
+test:noDomain a rdfs:Property ;
+    rdfs:comment "No Domain is declared, use rdfs:Resource."@en ;
+    rdfs:label "No Domain"@en .
+    
+test:irrelevant a rdfs:Property ;
+    rdfs:comment "This should be ignored if Human is selected as Domain class."@en ;
+    rdfs:label "Irrelevant"@en ;
+    rdfs:domain test:SomethingElse ;
+    rdfs:range test:Human .
+    
+test:schemaProp a rdfs:Property ;
+    rdfs:comment "This should be selected if Human is selected as Domain class."@en ;
+    rdfs:label "Schema property"@en ;
+    sdo:domainIncludes test:Human ;
+    rdfs:range test:Human .
+    
+

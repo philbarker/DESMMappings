@@ -12,7 +12,7 @@
     skos:prefLabel "Organization"@en-us ;
     skos:definition "A group of persons organized for a particular purpose; an association or business."@en-us.
 
-<http://desm.org/concepts/organization> a skos:Concept ;
+<http://desm.org/concepts/address> a skos:Concept ;
     skos:inScheme <http://desm.org/concepts/mappingClasses> ;
     skos:prefLabel "Address"@en-us ;
     skos:definition "A location specified as a postal address.".
