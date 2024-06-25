@@ -7,6 +7,12 @@
     skos:prefLabel "Person"@en-us ;
     skos:definition "A natural person, a human being."@en-us.
 
+<http://desm.org/concepts/personName> a skos:Concept ;
+    skos:inScheme <http://desm.org/concepts/mappingClasses> ;
+    skos:prefLabel "Person name"@en-us ;
+    skos:definition "A person's name, comprising parts such as given name, family name, suffixes etc."@en-us.
+
+
 <http://desm.org/concepts/organization> a skos:Concept ;
     skos:inScheme <http://desm.org/concepts/mappingClasses> ;
     skos:prefLabel "Organization"@en-us ;
